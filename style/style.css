@@ -1,6 +1,35 @@
 .container {
-  height: 1440px;
-  width: 600px;
-  background: brown;
-  border: 10px solid blue;
+  width: 1440px;
+  height: 900px;
+  background: #9dbebb;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  width: 954px;
+  height: 594px;
+}
+
+.redsquare {
+  height: 594px;
+  width: 609px;
+  background: #be0909;
+}
+.yellowsquare {
+  height: 594px;
+  width: 345px;
+  background: #ffb039;
+}
+.container img {
+  position: absolute;
+  top: 205px;
+  right: 192px;
+
+}
+
+.hello{
+flex-grow: 1;
+flex-basis: 0;
 }
