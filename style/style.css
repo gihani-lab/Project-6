@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 section {
   width: 954px;
@@ -16,7 +17,11 @@ section {
   height: 594px;
   width: 609px;
   background: #be0909;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 .yellowsquare {
   height: 594px;
   width: 345px;
@@ -26,10 +31,51 @@ section {
   position: absolute;
   top: 205px;
   right: 192px;
-
 }
 
-.hello{
-flex-grow: 1;
-flex-basis: 0;
+.hello {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+input[type="text"] {
+  outline: none;
+  padding-bottom: 20px;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #9dbebb;
+  background-color: #be0909;
+}
+form {
+  margin-left: 65px;
+
+  color: azure;
+}
+
+#email {
+  width: 40%;
+}
+#fname {
+  width: 70%;
+}
+#messageregarding {
+  width: 40%;
+}
+#message {
+  width: 70%;
+}
+button {
+  background-color: #468189;
+  width: 202px;
+  height: 48px;
+  align-self: center;
+  border-radius: 50px;
+  border: none;
+  color: azure;
+}
+::placeholder {
+  color: #fdffff;
+  letter-spacing: 0.3em;
+}
+label {
+  font-size: 18px;
 }
