@@ -2,15 +2,10 @@
   width: 1440px;
   height: 900px;
   background: #9dbebb;
-  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
-}
-section {
-  width: 954px;
-  height: 594px;
 }
 
 .redsquare {
@@ -19,7 +14,6 @@ section {
   background: #be0909;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .yellowsquare {
@@ -33,49 +27,69 @@ section {
   right: 192px;
 }
 
-.hello {
-  flex-grow: 1;
-  flex-basis: 0;
-}
 input[type="text"] {
   outline: none;
-  padding-bottom: 20px;
-  margin: 20px 0;
   border: none;
   border-bottom: 1px solid #9dbebb;
   background-color: #be0909;
 }
-form {
-  margin-left: 65px;
 
-  color: azure;
+input[type="email"] {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #9dbebb;
+  background-color: #be0909;
 }
-
+label {
+  margin-bottom: 39px;
+  width: 111px;
+  height: 21px;
+  font-size: 18px;
+}
+label[for="messageregarding"] {
+  width: 221px;
+  height: 21px;
+}
 #email {
-  width: 40%;
+  width: 120px;
+  margin-bottom: 22px;
 }
 #fname {
-  width: 70%;
+  width: 400px;
+  margin-bottom: 22px;
 }
 #messageregarding {
-  width: 40%;
+  width: 120px;
+  margin-bottom: 22px;
 }
 #message {
-  width: 70%;
-}
-button {
-  background-color: #468189;
-  width: 202px;
-  height: 48px;
-  align-self: center;
-  border-radius: 50px;
-  border: none;
-  color: azure;
+  width: 400px;
+  margin-bottom: 22px;
 }
 ::placeholder {
   color: #fdffff;
   letter-spacing: 0.3em;
 }
-label {
-  font-size: 18px;
+
+form {
+  margin-top: 64px;
+  margin-left: 65px;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: #468189;
+  width: 202px;
+  height: 48px;
+  border-radius: 50px;
+  border: none;
+  color: azure;
+  align-self: center;
+  transition-duration: 0.8s;
+}
+button:hover {
+  background-color: #3834a6; /* Green */
+  color: rgb(63, 190, 38);
 }

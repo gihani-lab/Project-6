@@ -14,28 +14,24 @@
 
 <body>
     <div class="container">
-        <section class="redsquare">
+        <div class="redsquare">
             <form>
-                <label for="fname">FULL NAME</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="email">EMAIL</label><br>
-                <input type="text" id="email" name="email" placeholder="Your Email"><br>
-                <label for="messageregarding">MESSAGE REGARDING</label><br>
-                <input type="text" id="messageregarding" name="messageregarding"><br>
-                <label for="message">MESSAGE</label><br>
-                <input type="text" id="message" name="message" placeholder="Your message"><br>
-
+                <!--form begins-->
+                <label for="fname">FULL NAME</label>
+                <input type="text" id="fname" name="fname" required>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+                <label for="messageregarding">MESSAGE REGARDING</label>
+                <input type="text" id="messageregarding" name="messageregarding">
+                <label for="message">MESSAGE</label>
+                <input type="text" id="message" name="message" placeholder="Your message">
             </form>
+            <!--form ends-->
             <button type="submit" class="button_1">SEND MESSAGE</button>
-        </section>
-
-        <section class="yellowsquare">
-
-        </section>
-        <img src="images/hiclipart 2.png">
-
+        </div>
+        <div class="yellowsquare"> </div>
+        <img src="images/hiclipart 2.png" alt="duck">
     </div>
-
 
 </body>
 
